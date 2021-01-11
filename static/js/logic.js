@@ -93,6 +93,7 @@ d3.json(earthquakesURL, function(earthquakeData) {
             weight: 0.4
         };
     }
+
     
     function getColor(magnitude) {
         switch (true) {
@@ -125,6 +126,8 @@ d3.json(earthquakesURL, function(earthquakeData) {
     }).addTo(earthquakes);
 
     earthquakes.addTo(myMap);
+
+
 
     const legend = L.control({ position: "bottomright" });
     legend.onAdd = function() {
