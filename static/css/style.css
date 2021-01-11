@@ -3,13 +3,12 @@ body {
   margin: 0;
 }
 
-#mapid,
+#map,
 body,
 html {
   height: 100%;
 }
 
-/* Styling from leaflet documentation */
 .info {
   padding: 6px 8px;
   font: 14px/16px Arial, Helvetica, sans-serif;
@@ -24,7 +23,7 @@ html {
 }
 
 .legend {
-  line-height: 30px;
+  line-height: 18px;
   color: #555;
 }
 .legend i {
